@@ -1,0 +1,16 @@
+services:
+  # PHP 8.4 CLI with Composer for development
+  php:
+    build:
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./runtime:/runtime
+      - ./function:/function
+      - composer-cache:/root/.composer/cache
+    environment:
+      - COMPOSER_CACHE_DIR=/root/.composer/cache
+    profiles:
+      - tools
+
+volumes:
+  composer-cache:

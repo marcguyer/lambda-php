@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="GENERAL_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/function/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/function/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/function/tests" isTestSource="true" packagePrefix="AppTest\" />
+      <sourceFolder url="file://$MODULE_DIR$/runtime/src" isTestSource="false" packagePrefix="LambdaPhp\Runtime\" />
+      <sourceFolder url="file://$MODULE_DIR$/runtime/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/runtime/tests" isTestSource="true" packagePrefix="LambdaPhp\Runtime\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/brick/varexporter" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-config-aggregator" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-escaper" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-httphandlerrunner" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-servicemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/laminas/laminas-stratigility" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/mezzio/mezzio" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/mezzio/mezzio-fastroute" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/mezzio/mezzio-router" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/mezzio/mezzio-template" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/webimpress/safe-writer" />
+      <excludeFolder url="file://$MODULE_DIR$/function/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/runtime/vendor/theseer/tokenizer" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
