@@ -1,0 +1,33 @@
+services:
+  # PHP 8.4 CLI with Composer for development
+  php:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+    volumes:
+      - ./runtime:/runtime
+      - ./function:/function
+      - composer-cache:/root/.composer/cache
+    environment:
+      - COMPOSER_CACHE_DIR=/root/.composer/cache
+    profiles:
+      - tools
+
+  # Local Lambda runtime using AWS RIE
+  lambda:
+    build:
+      context: .
+      dockerfile: docker/lambda/Dockerfile
+    platform: linux/arm64
+    ports:
+      - "9000:8080"
+    environment:
+      - LAMBDA_HANDLER=handler.php
+      - LAMBDA_RUNTIME_DEBUG=1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - AWS_SESSION_TOKEN=test
+      - AWS_REGION=eu-central-1
+
+volumes:
+  composer-cache:

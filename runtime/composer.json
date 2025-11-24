@@ -1,0 +1,33 @@
+{
+    "name": "lambda-php/runtime",
+    "description": "Custom PHP 8.4 runtime for AWS Lambda",
+    "type": "library",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=8.4",
+        "psr/http-message": "^2.0",
+        "psr/http-factory": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "laminas/laminas-diactoros": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "LambdaPhp\\Runtime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LambdaPhp\\Runtime\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-html coverage"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
